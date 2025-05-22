@@ -1,0 +1,54 @@
+{
+    "name": "TestActions",
+    "maps": [
+        {
+            "name": "GamePlay",
+            "id": "b2473ab4-5b62-4ffb-b069-d7d130b5ed64",
+            "actions": [
+                {
+                    "name": "DamageTest",
+                    "type": "Button",
+                    "id": "d6c3a3d9-3953-4898-82ab-7014686f60ff",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HealTest",
+                    "type": "Button",
+                    "id": "89ae99a4-0769-4248-a0cd-de0cb85b340e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1f4c0b69-549e-4408-b777-91564d4fd685",
+                    "path": "<Keyboard>/t",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DamageTest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0ac5288f-579a-4271-b52c-90b335db11cf",
+                    "path": "<Keyboard>/h",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "HealTest",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
